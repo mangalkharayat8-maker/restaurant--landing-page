@@ -319,7 +319,7 @@ a {
 }
 
 .form {
-    width:50%;
+    width:60%;
     margin-inline:auto;
     max-height:0;
     overflow: hidden;
@@ -428,5 +428,5 @@ label{
 
 }
 .activeform{
-    max-height:60vh;
+    max-height:350px;
 }
