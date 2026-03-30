@@ -5,6 +5,7 @@ let veg = document.querySelectorAll(".veg");
 let home = document.querySelectorAll(".home");
 let signup_button = document.querySelector(".signup-button");
 let form = document.querySelector(".form");
+let form_container = document.querySelector(".form-container");
 let head = document.querySelector("header");
 let non_veg = document.querySelectorAll(".non-veg")
 let veg_menu = document.querySelector(".veg-menu");
@@ -43,7 +44,7 @@ item.addEventListener("click",function(){
     head.scrollIntoView({
         behavior:"smooth"
     });
-    form.classList.remove("activeform");
+    form_container.classList.remove("activeform");
     right_div.classList.remove("active");
 
 });
@@ -63,6 +64,6 @@ faq.forEach((item) =>{
 });
 signup_button.addEventListener("click",function(){
    
-    form.classList.add("activeform");
+    form_container.classList.add("activeform");
 });
 
