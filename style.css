@@ -310,12 +310,12 @@ a {
 
 .form-container {
     width: 100%;
-    height:99vh;
+    height:90vh;
     max-height:0;
     overflow: hidden;
     /* border: 2px solid red; */
     position:fixed;
-    top:5%;
+    top:4%;
     z-index: 2;
     transition:max-height 1s 0.3s ease-in;
 }
@@ -349,9 +349,9 @@ label{
 .submit {
     background-color: red;
     width:110px;
-    height:30px;
+    height:40px;
     border-radius:10px;
-    margin-top:5px;
+    margin-top:10px;
     margin-inline:auto;
     cursor: pointer;
 }
