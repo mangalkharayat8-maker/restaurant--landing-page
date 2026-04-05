@@ -18,7 +18,7 @@ let faq = document.querySelectorAll(".faq");
 
 order_now.forEach((item)=>{
     item.addEventListener("click",function(){
-        alert("You can pay using QR or UPI.\nAdvanced payment methods (cards, gateway integration) require backend setup.")
+        alert("I can set up QR code and UPI-based payment methods for quick transactions.\nAdvanced payment methods (cards, gateway integration) require backend setup.")
     })
 })
 
