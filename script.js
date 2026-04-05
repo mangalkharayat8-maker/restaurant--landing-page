@@ -28,6 +28,8 @@ item.addEventListener("click",function(){
     veg_menu.scrollIntoView({
         behavior:"smooth"
     });
+    form_container.classList.remove("activeform");
+    right_div.classList.remove("active");
 
 });
 });
@@ -36,6 +38,8 @@ item.addEventListener("click",function(){
     nonveg_menu.scrollIntoView({
         behavior:"smooth"
     });
+    form_container.classList.remove("activeform");
+    right_div.classList.remove("active");
 
 });
 });
